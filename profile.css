@@ -1,0 +1,56 @@
+*{
+    margin: 0; 
+    /* membuat jarak antar objek*/
+    padding: 0; 
+    /* membuat jarak antar isi dengan kotak */
+    font-family: 'cambria', sans-serif; 
+    /* merubah jenis font */
+}
+
+.bg {
+    background-image: url('Background.jpg');
+    /* memasang sebuah gambar background */
+    background-size: cover; 
+    /* agar background susai dengan ukuran device */
+    height: 120%; 
+    /* agar tinggi background seusai dengan ukuran device */
+
+}
+
+    
+
+.photo {
+    width: 150px; 
+    /* lebar foto sebesar 150px */
+    height: 150px; 
+    /* agar tinggi background seusai dengan ukuran device */
+    border-radius: 50%; 
+    /* untuk membuat foto menjadi bulat */
+}
+
+.title {
+    color: #FFFFFF; 
+    /* merubah warna teks*/
+    margin: 10x auto; 
+    /* membuat jarak antar objek */
+    text-align: center; 
+    /* untuk menentukan posisi text (di tengah) */
+}
+
+
+.centerbox {
+    width: 500px; 
+    /* untuk menentukan lebar objek */
+    border: 1px solid #FFFFFF; 
+    /* untuk membuat border pada bagian tengah menjadi transparan */
+    margin: 0 auto; 
+    /* membuat jarak antar objek */
+    padding: 15px; 
+    /* membuat jarak antar isi dengan kotak */
+    background-color: rgba(0,0,0, 0.5); 
+    /* untuk mewarnai backgroung */
+    color: #FFFFFF; 
+    /* merubah warna teks */
+    text-align: center; 
+    /* untuk menentukan posisi poto (di tengah) */
+}
